@@ -136,7 +136,7 @@ try {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/array/max-typed-array-length`][@stdlib/constants/array/max-typed-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a typed array.</span>
+-   <span class="package-name">[`@stdlib/constants-array/max-typed-array-length`][@stdlib/constants/array/max-typed-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a typed array.</span>
 
 </section>
 
