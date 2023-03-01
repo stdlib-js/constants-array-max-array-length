@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-array-max-array-length
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-MAX_ARRAY_LENGTH = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var MAX_ARRAY_LENGTH = require( 'path/to/vendor/umd/constants-array-max-array-length/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.MAX_ARRAY_LENGTH;
-})();
-</script>
+var MAX_ARRAY_LENGTH = require( '@stdlib/constants-array-max-array-length' );
 ```
 
 #### MAX_ARRAY_LENGTH
@@ -97,13 +89,8 @@ var len = MAX_ARRAY_LENGTH;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var MAX_ARRAY_LENGTH = require( '@stdlib/constants-array-max-array-length' );
 
 function alloc( len ) {
     var arr;
@@ -127,11 +114,6 @@ try {
 } catch ( err ) {
     console.error( err.message );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -154,7 +136,7 @@ try {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/array/max-typed-array-length`][@stdlib/constants/array/max-typed-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a typed array.</span>
+-   <span class="package-name">[`@stdlib/constants-array/max-typed-array-length`][@stdlib/constants/array/max-typed-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a typed array.</span>
 
 </section>
 
@@ -231,7 +213,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/array/max-typed-array-length]: https://github.com/stdlib-js/constants-array-max-typed-array-length/tree/umd
+[@stdlib/constants/array/max-typed-array-length]: https://github.com/stdlib-js/constants-array-max-typed-array-length
 
 <!-- </related-links> -->
 
