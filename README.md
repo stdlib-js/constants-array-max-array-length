@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@deno/mod.js';
+import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@v0.2.1-deno/mod.js';
 ```
 
 #### MAX_ARRAY_LENGTH
@@ -85,7 +85,7 @@ var len = MAX_ARRAY_LENGTH;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@deno/mod.js';
+import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@v0.2.1-deno/mod.js';
 
 function alloc( len ) {
     var arr;
