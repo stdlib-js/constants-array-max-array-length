@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@esm/index.mjs';
+import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@v0.2.3-esm/index.mjs';
 ```
 
 #### MAX_ARRAY_LENGTH
@@ -90,7 +90,7 @@ var len = MAX_ARRAY_LENGTH;
 <body>
 <script type="module">
 
-import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@esm/index.mjs';
+import MAX_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-array-length@v0.2.3-esm/index.mjs';
 
 function alloc( len ) {
     var arr;
